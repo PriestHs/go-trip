@@ -1,0 +1,56 @@
+.customers {
+    padding: 100px 0px 133px;
+}
+.customers__row {
+    display: flex;
+    column-gap: 68px;
+}
+.customers__img {
+    max-width: 478px;
+
+    img {
+        border-radius: 60px;
+    }
+}
+.customers__title {
+    margin-bottom: 45px;
+
+    line-height: 68px;
+    font-weight: 500;
+    font-size: 45px;
+}
+.review {
+    max-width: 490px;
+}
+.review__client {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+.review__client-avatar {
+    width: 134px;
+    height: 134px;
+
+    border-radius: 50%;
+    background-color: #FF794E;
+
+    overflow: hidden;
+}
+.review__client-desc-name {
+    margin-bottom: 20px;
+
+    font-size: 33px;
+    font-weight: 500;
+}
+.review__client-desc-country {
+    font-size: 25px;
+    color: $secondary;
+}
+.review__text {
+    margin-bottom: 30px;
+
+    line-height: 33px;
+    font-size: 22px;
+    color: $secondary;
+}

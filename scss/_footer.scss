@@ -1,0 +1,33 @@
+.footer {
+    padding: 56px 0px 74px;
+
+    a {
+        color: $secondary;
+    }
+}
+.logo--footer {
+    a {
+        color: $orange;
+    }
+
+}
+.nav__list--footer {
+    a {
+
+        &:hover,
+        &.active {
+            color: $orange;
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+a.btn--footer {
+    padding: 13px 44px;
+
+    line-height: 22px;
+    color: #fff;
+
+    border-radius: 100px;
+}

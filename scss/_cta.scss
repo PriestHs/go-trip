@@ -1,0 +1,58 @@
+.cta {
+    padding: 100px 0px;
+}
+.cta__plate {
+    position: relative;
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+
+    background-color: #fff;
+    border-radius: 60px;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 63px;
+        height: 83px;
+    }
+    &::before {
+        left: 74px;
+        bottom: 56px;
+
+        background-image: url(../img/cta/cta-el-01.svg);
+    }
+    &::after {
+        top: 74px;
+        right: 80px;
+
+        background-image: url(../img/cta/cta-el-02.svg);
+    }
+}
+.cta__title {
+    margin-bottom: 35px;
+
+    text-align: center;
+    line-height: 68px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.cta__text {
+    margin-bottom: 60px;
+
+    font-size: 30px;
+    color: $secondary;
+}
+.cta__button {
+    padding: 25px 55px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    border-radius: 27px;
+}
